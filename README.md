@@ -7,7 +7,8 @@ A web application that provides comprehensive travel information, including weat
 - **Weather Information**: Retrieve current weather data for your destination.
 - **Flight Information**: Get real-time flight data between two IATA airports.
 - **Activities**: Discover local activities and amenities at your destination.
-- **Currency Exchange**: Access currency exchange rates for your travel needs.
+- **Time Zone**: Find the time in your destination country.
+- **Map**: Access a satellite image of the destination airport.
 
 ## Technologies Used
 
