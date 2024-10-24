@@ -1,12 +1,6 @@
 # Travel Information Project
 
-A web application that provides comprehensive travel information, including weather, flights, activities, and currency exchange based on user-provided IATA codes.
-
-## Deployment
-
-You can check the deployment at:
-
-https://travel-guide-delta-five.vercel.app/
+A web application that provides comprehensive travel information, including weather, flights, activities, time differences, and airport maps based on user-provided IATA codes.
 
 ## Features
 
@@ -23,18 +17,18 @@ https://travel-guide-delta-five.vercel.app/
 - OpenWeatherMap API
 - AviationStack API (or alternative)
 - OpenCage Geocoding API
-- Currency Exchange API
+- TimeZoneDb API
 
 ## Setup
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ahmed5145/Travel-Guide.git
+   git clone https://github.com/ahmed5145/Travel-Assistant.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd travel-guide
+   cd travel-assistant
    ```
 
 3. Open `index.html` in your web browser.
