@@ -1,0 +1,8 @@
+node_modules
+tests/
+package-lock.json
+package.json
+deployment
+images.js
+catalog.html
+airplane.jpg

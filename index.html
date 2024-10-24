@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <title>Travel Helper</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Video background -->
+    <div class="video-background">
+        <video autoplay muted loop id="bg-video">
+            <source src="earth-spinning.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <!-- Main content -->
+    <div class="content">
+        <div class="container mt-5">
+            <h1 class="text-center mb-4 text-light">Travel Helper</h1>
+            <form id="travel-form" class="bg-light p-4 rounded shadow">
+                <div class="mb-3">
+                    <label for="currentLocation" class="form-label">Current Location (IATA Code):</label>
+                    <input type="text" class="form-control" id="currentLocation" placeholder="Enter your current location (e.g MSP)">
+                </div>
+                <div class="mb-3">
+                    <label for="destination" class="form-label">Destination (IATA Code):</label>
+                    <input type="text" class="form-control" id="destination" placeholder="Enter your destination (e.g CDG)" required>
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Get Travel Info</button>
+            </form>
+
+            <div id="results" class="mt-5" style="display:none;">
+                <h2 class="text-center text-light">Travel Info</h2>
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <img id="map" class="img-fluid rounded shadow mb-3" alt="Map" style="display:none;"/>
+                        <p id="weather" class="text-dark"></p>
+                        <p id="flights" class="text-dark"></p>
+                        <p id="activities" class="text-dark"></p>
+                        <p id="time" class="text-dark"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
